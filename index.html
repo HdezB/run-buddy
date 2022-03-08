@@ -38,9 +38,46 @@
 
     <!--HERO/JUMBOTRON-->
     <section>
+        <div>
+            <h3>Get Started Today</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <!--ADD FORM ELEMENT-->
+            <form>
+                <!--Full Name-->
+                <label for="name">Enter Full Name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
+                <!--Email Address-->
+                <label for="email">Enter email address:</label>
+                <input type="text" placeholder="Email Address" name="email" id="email" />
+                <!--Phone Number-->
+                <label for="phoneNumber">Enter a telephone number:</label>
+                <input type="text" placeholder="Phone Number" name="phoneNumber" id="phoneNumber" />
+                <!--Radio Button-->
+                <p>
+                    Have you ever worked out with a trainer before?
 
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+                <!--Checkbox Input-->
+                <p>
+                    <label for="checkbox">
+                        "I acknowledge that I am at least 18 years of age"
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                </p>
+                <!--Submit Button-->
+                <p>
+                    <button type="submit">
+                        Get running!
+                    </button>
+                </p>
+            </form>
+        </div>
     </section>
-
     <!--"WHAT WE DO" SECTION-->
     <section>
         <h2>What We Do</h2>
@@ -55,7 +92,7 @@
     <section>
         <h2>Meet The Trainers</h2>
     </section>
-    
+
     <!--"REACH OUT" SECTION-->
     <section>
         <h2>Reach Out</h2>
